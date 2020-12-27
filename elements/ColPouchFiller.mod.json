@@ -1,0 +1,240 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Col Pouch Converter",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Col Pouch Converter",
+          "x": 330,
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 88
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 88
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 336,
+          "y": 88
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 372,
+          "y": 88
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 4,
+          "name": "Slot #4",
+          "x": 264,
+          "y": 124
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 5,
+          "name": "Slot #5",
+          "x": 300,
+          "y": 124
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 6,
+          "name": "Slot #6",
+          "x": 336,
+          "y": 124
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 7,
+          "name": "Slot #7",
+          "x": 372,
+          "y": 124
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 8,
+          "name": "Slot #8",
+          "x": 264,
+          "y": 160
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 9,
+          "name": "Slot #9",
+          "x": 300,
+          "y": 160
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 10,
+          "name": "Slot #10",
+          "x": 336,
+          "y": 160
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 11,
+          "name": "Slot #11",
+          "x": 372,
+          "y": 160
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 12,
+          "name": "Slot #12",
+          "x": 264,
+          "y": 196
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 13,
+          "name": "Slot #13",
+          "x": 300,
+          "y": 196
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 14,
+          "name": "Slot #14",
+          "x": 336,
+          "y": 196
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Col"
+          },
+          "id": 15,
+          "name": "Slot #15",
+          "x": 372,
+          "y": 196
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "=>",
+          "onClick": {
+            "name": "ConvertCol"
+          },
+          "width": 40,
+          "height": 40,
+          "name": "=>",
+          "x": 465,
+          "y": 140
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 16,
+          "name": "Slot #16",
+          "x": 552,
+          "y": 142
+        }
+      }
+    ]
+  }
+}

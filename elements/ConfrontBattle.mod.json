@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_confront_battle",
+    "name": "Confront Battle",
+    "description": "Kajiura Yuki - Confront Battle",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:confront_battle"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "crystal blue": "crystal_blue",
+        "crystal deco": "rystal_eco"
+      },
+      "name": "default"
+    }
+  }
+}

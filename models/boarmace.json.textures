@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "basicmace": "boarmace"
+      },
+      "name": "default"
+    }
+  }
+}

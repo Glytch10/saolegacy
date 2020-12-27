@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_with_my_friend",
+    "name": "With My Friend",
+    "description": "Kajiura Yuki - With My Friend",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:with_my_friend"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

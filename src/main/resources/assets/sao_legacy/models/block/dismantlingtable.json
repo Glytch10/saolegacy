@@ -1,0 +1,9 @@
+{
+  "parent": "sao_legacy:custom/deconstructor",
+  "textures": {
+    "all": "sao_legacy:blocks/dismantling_table_2",
+    "particle": "sao_legacy:blocks/dismantling_table_2",
+    "dismantling table 2": "sao_legacy:blocks/dismantling_table_2",
+    "dismantling table": "sao_legacy:blocks/dismantling_table"
+  }
+}

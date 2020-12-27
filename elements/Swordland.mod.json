@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_swordland",
+    "name": "Swordland",
+    "description": "Kajiura Yuki - Swordland",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:swordland"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_everyday_life",
+    "name": "Everyday Life",
+    "description": "Kajiura Yuki - Everyday Life",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:everyday_life"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

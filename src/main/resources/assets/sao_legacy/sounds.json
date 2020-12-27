@@ -1,0 +1,389 @@
+{
+  "confront_battle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:onfront_attle",
+        "stream": true
+      }
+    ]
+  },
+  "a_close_battle": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_lose_attle",
+        "stream": true
+      }
+    ]
+  },
+  "a_narrow_escape": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_arrow_scape",
+        "stream": true
+      }
+    ]
+  },
+  "a_squabble": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_quabble",
+        "stream": true
+      }
+    ]
+  },
+  "a_strategy_meeting": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_trategy_eeting",
+        "stream": true
+      }
+    ]
+  },
+  "a_tender_feeling": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_ender_eeling",
+        "stream": true
+      }
+    ]
+  },
+  "a_tense_situation": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_ense_ituation",
+        "stream": true
+      }
+    ]
+  },
+  "a_tiny_love": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_iny_ove",
+        "stream": true
+      }
+    ]
+  },
+  "a_brisk_conversation": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_brisk_conversation",
+        "stream": true
+      }
+    ]
+  },
+  "aincrad": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:incrad",
+        "stream": true
+      }
+    ]
+  },
+  "at_nightfall": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:t_ightfall",
+        "stream": true
+      }
+    ]
+  },
+  "at_our_parting": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:t_ur_arting",
+        "stream": true
+      }
+    ]
+  },
+  "at_our_parting_cello": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:t_ur_atring_-c_nly",
+        "stream": true
+      }
+    ]
+  },
+  "critical_phase": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ritical_phase",
+        "stream": true
+      }
+    ]
+  },
+  "daily_life_you_and_me": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:aily_life_you_and_me",
+        "stream": true
+      }
+    ]
+  },
+  "despaired": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:espaired",
+        "stream": true
+      }
+    ]
+  },
+  "feel_uneasy": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:eel_neasy",
+        "stream": true
+      }
+    ]
+  },
+  "fight": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ight",
+        "stream": true
+      }
+    ]
+  },
+  "fight_with_a_devil": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ight_with_a_devil",
+        "stream": true
+      }
+    ]
+  },
+  "got_to_win": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ot_to_win",
+        "stream": true
+      }
+    ]
+  },
+  "gracefully": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:racefully",
+        "stream": true
+      }
+    ]
+  },
+  "he_rules_us": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:e_ules_s",
+        "stream": true
+      }
+    ]
+  },
+  "i_wonder": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:_wonder",
+        "stream": true
+      }
+    ]
+  },
+  "in_your_past": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:n_our_ast",
+        "stream": true
+      }
+    ]
+  },
+  "left_in_suspense": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:eft_n_uspense",
+        "stream": true
+      }
+    ]
+  },
+  "looking_back_on_those_days": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ooking_back_on_those_days",
+        "stream": true
+      }
+    ]
+  },
+  "luminous_sword": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:uminous_word",
+        "stream": true
+      }
+    ]
+  },
+  "march_down": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:arch_own",
+        "stream": true
+      }
+    ]
+  },
+  "no_way": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:o_ay",
+        "stream": true
+      }
+    ]
+  },
+  "quiet_strain": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:uiet_train",
+        "stream": true
+      }
+    ]
+  },
+  "she_is_still_sleeping": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:he_is_still_sleeping",
+        "stream": true
+      }
+    ]
+  },
+  "smile_for_me": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:mile_or_e",
+        "stream": true
+      }
+    ]
+  },
+  "stand_at_bay": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:tand_t_ay",
+        "stream": true
+      }
+    ]
+  },
+  "survive_the_swordland": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:urvive_he_wordland",
+        "stream": true
+      }
+    ]
+  },
+  "swordland": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:wordland",
+        "stream": true
+      }
+    ]
+  },
+  "taut_nerves": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:aut_erves",
+        "stream": true
+      }
+    ]
+  },
+  "victory": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ictory",
+        "stream": true
+      }
+    ]
+  },
+  "weird_place": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:eird_lace",
+        "stream": true
+      }
+    ]
+  },
+  "we_have_to_defeat_it": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:e_ave_o_efeat_t",
+        "stream": true
+      }
+    ]
+  },
+  "with_my_friend": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ith_y_riend",
+        "stream": true
+      }
+    ]
+  },
+  "yui": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:ui",
+        "stream": true
+      }
+    ]
+  },
+  "everyday_life": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:veryday_ife",
+        "stream": true
+      }
+    ]
+  },
+  "the_first_town": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "sao_legacy:he_irst_own",
+        "stream": true
+      }
+    ]
+  }
+}

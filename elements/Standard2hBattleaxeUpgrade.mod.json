@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "commonaxe",
+    "customModelName": "basicaxeupgrade:default",
+    "name": "Standard Battleaxe +1",
+    "creativeTab": {
+      "value": "CUSTOM:SAOFI"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 0.8,
+    "enchantability": 2,
+    "damageVsEntity": 4.1,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

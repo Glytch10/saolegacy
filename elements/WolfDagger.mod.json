@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "uncommondagger",
+    "customModelName": "Normal",
+    "name": "Wolf's' Fang",
+    "creativeTab": {
+      "value": "CUSTOM:SAOFI"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 3.5,
+    "enchantability": 2,
+    "damageVsEntity": 7.3,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Dash Cooldown",
+    "effectName": "Dash Cooldown",
+    "icon": "insert_here.png",
+    "color": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [],
+    "renderStatusInInventory": false,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "TimerDashStart"
+    },
+    "onActiveTick": {
+      "name": "TimerOccupyFunction"
+    },
+    "onExpired": {
+      "name": "TimerDashStop"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "commonrapier",
+    "customModelName": "Normal",
+    "name": "Wind Fleuret",
+    "creativeTab": {
+      "value": "CUSTOM:SAOFI"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.2,
+    "enchantability": 2,
+    "damageVsEntity": 6.5,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

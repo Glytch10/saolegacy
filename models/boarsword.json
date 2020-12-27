@@ -1,0 +1,220 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "boarsword": "minecraft:blocks/boarsword"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 350, 15, 315 ],
+            "translation": [ -4, -3.75, 0 ],
+            "scale": [ 0.675, 0.675, 1 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, -9.5, -0.1 ],
+            "scale": [ 0.6, 0.6, 1 ]
+        },
+        "head": {
+            "rotation": [ 180, 180, 0 ],
+            "translation": [ 0, 14, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 5, 90, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.7, 0.7, 0.8 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ -0.2, 0.5, 1 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Handle",
+            "from": [ 7.5, 1, 7.5 ], 
+            "to": [ 8.5, 7, 8.5 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 4, 8, 5, 14 ] },
+                "east": { "texture": "#boarsword", "uv": [ 5, 8, 6, 14 ] },
+                "south": { "texture": "#boarsword", "uv": [ 6, 8, 7, 14 ] },
+                "west": { "texture": "#boarsword", "uv": [ 7, 8, 8, 14 ] }
+            }
+        },
+        {
+            "name": "Handle Base",
+            "from": [ 6.5, 0, 7 ], 
+            "to": [ 9.5, 1.5, 9 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 4, 2, 7, 3.5 ] },
+                "east": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.5 ] },
+                "south": { "texture": "#boarsword", "uv": [ 4, 2, 7, 3.5 ] },
+                "west": { "texture": "#boarsword", "uv": [ 5, 3, 7, 4.5 ] },
+                "up": { "texture": "#boarsword", "uv": [ 4, 2, 7, 4 ] },
+                "down": { "texture": "#boarsword", "uv": [ 4, 3, 7, 5 ] }
+            }
+        },
+        {
+            "name": "Guard",
+            "from": [ 6, 7, 7 ], 
+            "to": [ 10, 9, 9 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 4, 1, 8, 3 ] },
+                "east": { "texture": "#boarsword", "uv": [ 5, 1, 7, 3 ] },
+                "south": { "texture": "#boarsword", "uv": [ 4, 0, 8, 2 ] },
+                "west": { "texture": "#boarsword", "uv": [ 4, 0, 6, 2 ] },
+                "up": { "texture": "#boarsword", "uv": [ 4, 0, 8, 2 ] },
+                "down": { "texture": "#boarsword", "uv": [ 4, 0, 8, 2 ] }
+            }
+        },
+        {
+            "name": "Guard L",
+            "from": [ 4, 7, 7.05 ], 
+            "to": [ 6, 8.75, 8.95 ], 
+            "shade": false,
+            "rotation": { "origin": [ 6, 7, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 5, 3, 7, 4.75 ] },
+                "east": { "texture": "#boarsword", "uv": [ 5, 3, 6.9, 4.75 ] },
+                "south": { "texture": "#boarsword", "uv": [ 4, 0, 6, 1.75 ] },
+                "west": { "texture": "#boarsword", "uv": [ 4, 1, 5.9, 2.75 ] },
+                "up": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.9 ] },
+                "down": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.9 ] }
+            }
+        },
+        {
+            "name": "Guard R",
+            "from": [ 10, 7, 7.05 ], 
+            "to": [ 12, 8.75, 8.95 ], 
+            "shade": false,
+            "rotation": { "origin": [ 10, 7, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.75 ] },
+                "east": { "texture": "#boarsword", "uv": [ 5, 2, 6.9, 3.75 ] },
+                "south": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.75 ] },
+                "west": { "texture": "#boarsword", "uv": [ 6, 2, 7.9, 3.75 ] },
+                "up": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.9 ] },
+                "down": { "texture": "#boarsword", "uv": [ 5, 3, 7, 4.9 ] }
+            }
+        },
+        {
+            "name": "Guard L 1",
+            "from": [ 2.15, 7.75, 7.1 ], 
+            "to": [ 4.15, 9.25, 8.9 ], 
+            "shade": false,
+            "rotation": { "origin": [ 4.15, 7.75, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.5 ] },
+                "east": { "texture": "#boarsword", "uv": [ 5, 4, 6.8, 5.5 ] },
+                "south": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.5 ] },
+                "west": { "texture": "#boarsword", "uv": [ 5, 2, 6.8, 3.5 ] },
+                "up": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.8 ] },
+                "down": { "texture": "#boarsword", "uv": [ 4, 3, 6, 4.8 ] }
+            }
+        },
+        {
+            "name": "Guard R 1",
+            "from": [ 11.85, 7.75, 7.1 ], 
+            "to": [ 13.85, 9.25, 8.9 ], 
+            "shade": false,
+            "rotation": { "origin": [ 11.85, 7.75, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 5, 1, 7, 2.5 ] },
+                "east": { "texture": "#boarsword", "uv": [ 6, 1, 7.8, 2.5 ] },
+                "south": { "texture": "#boarsword", "uv": [ 5, 2, 7, 3.5 ] },
+                "west": { "texture": "#boarsword", "uv": [ 6, 1, 7.8, 2.5 ] },
+                "up": { "texture": "#boarsword", "uv": [ 6, 2, 8, 3.8 ] },
+                "down": { "texture": "#boarsword", "uv": [ 6, 2, 8, 3.8 ] }
+            }
+        },
+        {
+            "name": "Guard Bottom",
+            "from": [ 7, 6, 8 ], 
+            "to": [ 9, 8, 8 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8, 7, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 5, 2, 7, 4 ] },
+                "south": { "texture": "#boarsword", "uv": [ 5, 2, 7, 4 ] }
+            }
+        },
+        {
+            "name": "Blade",
+            "from": [ 6, 9, 7.995 ], 
+            "to": [ 10, 31, 8.005 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 8, 4, 11.75, 16 ] },
+                "east": { "texture": "#boarsword", "uv": [ 8, 0, 8.01, 16 ] },
+                "south": { "texture": "#boarsword", "uv": [ 8, 4, 11.75, 16 ] },
+                "west": { "texture": "#boarsword", "uv": [ 8, 0, 8.01, 16 ] },
+                "up": { "texture": "#boarsword", "uv": [ 8, 0, 12, 0.01 ] }
+            }
+        },
+        {
+            "name": "Blade",
+            "from": [ 6.25, 9, 7.875 ], 
+            "to": [ 9.75, 30.75, 8.125 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 0.25, 4, 3.75, 16 ] },
+                "east": { "texture": "#boarsword", "uv": [ 3, 0, 3.25, 16 ] },
+                "south": { "texture": "#boarsword", "uv": [ 0.25, 4, 3.75, 16 ] },
+                "west": { "texture": "#boarsword", "uv": [ 0, 0, 0.25, 16 ] },
+                "up": { "texture": "#boarsword", "uv": [ 0, 0, 3.5, 0.25 ] }
+            }
+        },
+        {
+            "name": "Blade",
+            "from": [ 6.75, 9, 7.75 ], 
+            "to": [ 9.25, 30.5, 8.25 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 0.75, 4, 3.25, 16 ] },
+                "east": { "texture": "#boarsword", "uv": [ 3.25, 0, 3.75, 16 ] },
+                "south": { "texture": "#boarsword", "uv": [ 0.75, 4, 3.25, 16 ] },
+                "west": { "texture": "#boarsword", "uv": [ 0, 0, 0.5, 16 ] },
+                "up": { "texture": "#boarsword", "uv": [ 1, 0, 3.5, 0.5 ] }
+            }
+        },
+        {
+            "name": "Blade",
+            "from": [ 5.125, 29, 8 ], 
+            "to": [ 8, 31.875, 8 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8, 29, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 8, 0, 11.75, 4 ], "rotation": 90 },
+                "east": { "texture": "#boarsword", "uv": [ 8, 0, 8, 2.875 ] },
+                "south": { "texture": "#boarsword", "uv": [ 8, 0, 11.75, 3.75 ] },
+                "west": { "texture": "#boarsword", "uv": [ 8, 0, 8, 2.875 ] },
+                "up": { "texture": "#boarsword", "uv": [ 8, 0, 10.875, 0 ] },
+                "down": { "texture": "#boarsword", "uv": [ 8, 0, 10.875, 0 ] }
+            }
+        },
+        {
+            "name": "Blade",
+            "from": [ 6.25, 29.25, 7.8 ], 
+            "to": [ 8.75, 31.75, 8.2 ], 
+            "shade": false,
+            "rotation": { "origin": [ 8, 30, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#boarsword", "uv": [ 0.25, 0, 2.75, 2.5 ], "rotation": 90 },
+                "east": { "texture": "#boarsword", "uv": [ 3.25, 0, 3.65, 2.5 ] },
+                "south": { "texture": "#boarsword", "uv": [ 0.25, 0, 2.75, 2.5 ] },
+                "west": { "texture": "#boarsword", "uv": [ 0, 0, 0.4, 2.5 ] },
+                "up": { "texture": "#boarsword", "uv": [ 0, 0, 2.5, 0.4 ] },
+                "down": { "texture": "#boarsword", "uv": [ 0, 0, 2.5, 0.4 ] }
+            }
+        }
+    ]
+}

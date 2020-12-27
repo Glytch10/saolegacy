@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "dismantling table 2": "dismantling_table_2",
+        "dismantling table": "dismantling_table"
+      },
+      "name": "default"
+    }
+  }
+}

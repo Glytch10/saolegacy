@@ -1,0 +1,1289 @@
+{
+  "id_map": {
+    "ENTITY": 1,
+    "GUI": 4
+  },
+  "mod_elements": [
+    {
+      "name": "Portal1",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "portal1"
+    },
+    {
+      "name": "DungeonWall1",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dungeonwall1"
+    },
+    {
+      "name": "SAOLegacyMod",
+      "type": "tab",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "saolegacymod"
+    },
+    {
+      "name": "TeleportBlank",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleportToB",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TeleportCrystalToBDisabled",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TeleportCrystal",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TeleportCrystalToB",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardRapier",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard1hMace",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard2hBattleaxe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSpear",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardDagger",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSwordUpgrade",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardRapierUpgrade",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard1hMaceUpgrade",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard2hBattleaxeUpgrade",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSpearUpgrade",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardDaggerUpgrade",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSwordAdvanced",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardRapierAdvanced",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Floor1Icon",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard1hMaceAdvanced",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard2hBattleaxeAdvanced",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSpearAdvanced",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardDaggerAdvanced",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSwordMaster",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardRapierMaster",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard1hMaceMaster",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Standard2hBattleaxeMaster",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardSpearMaster",
+      "type": "tool",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "StandardDaggerMaster",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Col",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColPouch",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColPouchFiller",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 2
+      }
+    },
+    {
+      "name": "ColConverterKeyOpenGUI",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColConverterKey",
+      "type": "keybind",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ConvertCol",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConvertPouch",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Swordland",
+      "type": "musicdisc",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SAORecords",
+      "type": "tab",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "QuietStrain",
+      "type": "musicdisc",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "NoWay",
+      "type": "musicdisc",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheFirstTown",
+      "type": "musicdisc",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EverydayLife",
+      "type": "musicdisc",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WithMyFriend",
+      "type": "musicdisc",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ConfrontBattle",
+      "type": "musicdisc",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Fight",
+      "type": "musicdisc",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WeHaveToDefeatIt",
+      "type": "musicdisc",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WeirdPlace",
+      "type": "musicdisc",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoarTusk",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoarHide",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoarMeat",
+      "type": "food",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoarMeatCooked",
+      "type": "food",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CookBoarMeat",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PremiumCurrency",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoarSword",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoarMace",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SAOFoods",
+      "type": "tab",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SAOFI",
+      "type": "tab",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ColPouchCraftRemove",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HealingPotion",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Dash",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DashKey",
+      "type": "keybind",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Forge",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DismantlingTable",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Deconstructor",
+      "type": "gui",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "UpdateYaw",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dismantle",
+      "type": "procedure",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CopperIngot",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlatinumIngot",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "OnPlayerJoin",
+      "type": "procedure",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DismantleF1Weapons",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotionDrink",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WaspStinger",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaspWing",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ForgeGUI",
+      "type": "gui",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 4
+      }
+    },
+    {
+      "name": "ForgeGUIGetLevel",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WolfFang",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WolfPelt",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaspRapier",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WaspSpear",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WolfDagger",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WolfSword",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WolfAxe",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TimerDash",
+      "type": "potion",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TimerDashStart",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimerDashStop",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TimerOccupyFunction",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "confront_battle",
+      "file": "onfront_attle",
+      "category": "record"
+    },
+    {
+      "name": "a_close_battle",
+      "file": "_lose_attle",
+      "category": "record"
+    },
+    {
+      "name": "a_narrow_escape",
+      "file": "_arrow_scape",
+      "category": "record"
+    },
+    {
+      "name": "a_squabble",
+      "file": "_quabble",
+      "category": "record"
+    },
+    {
+      "name": "a_strategy_meeting",
+      "file": "_trategy_eeting",
+      "category": "record"
+    },
+    {
+      "name": "a_tender_feeling",
+      "file": "_ender_eeling",
+      "category": "record"
+    },
+    {
+      "name": "a_tense_situation",
+      "file": "_ense_ituation",
+      "category": "record"
+    },
+    {
+      "name": "a_tiny_love",
+      "file": "_iny_ove",
+      "category": "record"
+    },
+    {
+      "name": "a_brisk_conversation",
+      "file": "_brisk_conversation",
+      "category": "record"
+    },
+    {
+      "name": "aincrad",
+      "file": "incrad",
+      "category": "record"
+    },
+    {
+      "name": "at_nightfall",
+      "file": "t_ightfall",
+      "category": "record"
+    },
+    {
+      "name": "at_our_parting",
+      "file": "t_ur_arting",
+      "category": "record"
+    },
+    {
+      "name": "at_our_parting_cello",
+      "file": "t_ur_atring_-c_nly",
+      "category": "record"
+    },
+    {
+      "name": "critical_phase",
+      "file": "ritical_phase",
+      "category": "record"
+    },
+    {
+      "name": "daily_life_you_and_me",
+      "file": "aily_life_you_and_me",
+      "category": "record"
+    },
+    {
+      "name": "despaired",
+      "file": "espaired",
+      "category": "record"
+    },
+    {
+      "name": "feel_uneasy",
+      "file": "eel_neasy",
+      "category": "record"
+    },
+    {
+      "name": "fight",
+      "file": "ight",
+      "category": "record"
+    },
+    {
+      "name": "fight_with_a_devil",
+      "file": "ight_with_a_devil",
+      "category": "record"
+    },
+    {
+      "name": "got_to_win",
+      "file": "ot_to_win",
+      "category": "record"
+    },
+    {
+      "name": "gracefully",
+      "file": "racefully",
+      "category": "record"
+    },
+    {
+      "name": "he_rules_us",
+      "file": "e_ules_s",
+      "category": "record"
+    },
+    {
+      "name": "i_wonder",
+      "file": "_wonder",
+      "category": "record"
+    },
+    {
+      "name": "in_your_past",
+      "file": "n_our_ast",
+      "category": "record"
+    },
+    {
+      "name": "left_in_suspense",
+      "file": "eft_n_uspense",
+      "category": "record"
+    },
+    {
+      "name": "looking_back_on_those_days",
+      "file": "ooking_back_on_those_days",
+      "category": "record"
+    },
+    {
+      "name": "luminous_sword",
+      "file": "uminous_word",
+      "category": "record"
+    },
+    {
+      "name": "march_down",
+      "file": "arch_own",
+      "category": "record"
+    },
+    {
+      "name": "no_way",
+      "file": "o_ay",
+      "category": "record"
+    },
+    {
+      "name": "quiet_strain",
+      "file": "uiet_train",
+      "category": "record"
+    },
+    {
+      "name": "she_is_still_sleeping",
+      "file": "he_is_still_sleeping",
+      "category": "record"
+    },
+    {
+      "name": "smile_for_me",
+      "file": "mile_or_e",
+      "category": "record"
+    },
+    {
+      "name": "stand_at_bay",
+      "file": "tand_t_ay",
+      "category": "record"
+    },
+    {
+      "name": "survive_the_swordland",
+      "file": "urvive_he_wordland",
+      "category": "record"
+    },
+    {
+      "name": "swordland",
+      "file": "wordland",
+      "category": "record"
+    },
+    {
+      "name": "taut_nerves",
+      "file": "aut_erves",
+      "category": "record"
+    },
+    {
+      "name": "victory",
+      "file": "ictory",
+      "category": "record"
+    },
+    {
+      "name": "weird_place",
+      "file": "eird_lace",
+      "category": "record"
+    },
+    {
+      "name": "we_have_to_defeat_it",
+      "file": "e_ave_o_efeat_t",
+      "category": "record"
+    },
+    {
+      "name": "with_my_friend",
+      "file": "ith_y_riend",
+      "category": "record"
+    },
+    {
+      "name": "yui",
+      "file": "ui",
+      "category": "record"
+    },
+    {
+      "name": "everyday_life",
+      "file": "veryday_ife",
+      "category": "record"
+    },
+    {
+      "name": "the_first_town",
+      "file": "he_irst_own",
+      "category": "record"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.colpouch.name": "Col Pouch",
+      "potion.effect.timerdash": "Dash Cooldown",
+      "item.standardspearadvanced.name": "Standard Spear +2",
+      "item.wolffang.name": "Wolf Fang",
+      "block.sao_legacy.portal1": "Portal 1",
+      "item.wolfpelt.name": "Wolf Pelt",
+      "item.weirdplace.name": "Weird Place",
+      "item.standard2hbattleaxeupgrade.name": "Standard Battleaxe +1",
+      "item.standarddaggerupgrade.name": "Standard Dagger +1",
+      "item.standardswordupgrade.name": "Standard Sword +1",
+      "item.teleportcrystaltob.name": "Teleport Crystal (Town of Beginnings)",
+      "item.standarddagger.name": "Standard Dagger",
+      "item.boarmeatcooked.name": "Cooked Boar Meat",
+      "lingering_potion.effect.timerdash": "Lingering Dash Cooldown",
+      "tile.portal1.name": "Distortion Block",
+      "itemGroup.tabsaofoods": "SAO Foods",
+      "key.mcreator.dashkey": "Dash Key",
+      "item.record.weirdplace.desc": "Kajiura Yuki - Weird Place",
+      "itemGroup.tabsaolegacymod": "The SAO Legacy Mod",
+      "item.standard2hbattleaxe.name": "Standard Battleaxe",
+      "item.steelingot.name": "Steel Ingot",
+      "item.boarmeat.name": "Boar Meat",
+      "item.wolfaxe.name": "Wolf\u0027s bane",
+      "item.standardswordadvanced.name": "Standard Sword +2",
+      "item.record.withmyfriend.desc": "Kajiura Yuki - With My Friend",
+      "splash_potion.effect.timerdash": "Splash Dash Cooldown",
+      "item.thefirsttown.name": "The First Town",
+      "item.swordland.name": "Swordland",
+      "item.wolfsword.name": "Wolf Sword",
+      "itemGroup.tabsaorecords": "SAO Records",
+      "item.standarddaggeradvanced.name": "Standard Dagger +2",
+      "item.healingpotion.name": "Healing Potion",
+      "item.wehavetodefeatit.name": "We Have To Defeat It",
+      "item.waspstinger.name": "Wind Wasp Stinger",
+      "tile.forge.name": "Forge",
+      "item.everydaylife.name": "Everyday Life",
+      "item.record.noway.desc": "Kajiura Yuki - No Way",
+      "item.standard1hmace.name": "Standard Mace",
+      "item.wasprapier.name": "Wind Fleuret",
+      "item.record.fight.desc": "Kajiura Yuki - Fight!",
+      "item.standarddaggermaster.name": "Standard Dagger +3",
+      "item.copperingot.name": "Copper Ingot",
+      "item.col.name": "Col",
+      "item.standard1hmacemaster.name": "Standard Mace +3",
+      "item.quietstrain.name": "Quiet Strain",
+      "item.standard2hbattleaxemaster.name": "Standard Battleaxe +3",
+      "tile.dismantlingtable.name": "Dismantling Table",
+      "item.boarhide.name": "Boar Hide",
+      "item.platinumingot.name": "Platinum Ingot",
+      "item.standardrapierupgrade.name": "Standard Rapier +1",
+      "item.wolfdagger.name": "Wolf\u0027s\u0027 Fang",
+      "item.waspspear.name": "Wasp Spear",
+      "item.standardrapiermaster.name": "Standard Rapier +3",
+      "item.teleportcrystaltobdisabled.name": "Teleport Crystal (Town of Beginnings)",
+      "item.premiumcurrency.name": "Premium Currency",
+      "item.record.quietstrain.desc": "Kajiura Yuki - Quiet Strain",
+      "block.sao_legacy.dungeonwall2": "Dungeon Wall2",
+      "block.sao_legacy.dungeonwall3": "Dungeon Wall3",
+      "item.withmyfriend.name": "With My Friend",
+      "item.floor1icon.name": "Floor1 Icon",
+      "block.sao_legacy.dungeonwall4": "Dungeon Wall4",
+      "item.boarmace.name": "Frenzy Smash",
+      "block.sao_legacy.dungeonwall1": "Dungeon Wall1",
+      "item.standardrapier.name": "Standard Rapier",
+      "item.record.thefirsttown.desc": "Kajiura Yuki - The First Town",
+      "item.waspwing.name": "Torn Wasp Wing",
+      "item.silveringot.name": "Silver Ingot",
+      "item.noway.name": "No Way",
+      "item.standardspear.name": "Standard Spear",
+      "item.standardspearmaster.name": "Standard Spear +3",
+      "item.standardrapieradvanced.name": "Standard Rapier +2",
+      "item.teleportcrystal.name": "Teleport Crystal (Blank)",
+      "item.standardswordmaster.name": "Standard Sword +3",
+      "key.mcreator.colconverterkey": "Col Converter Key",
+      "item.fight.name": "Fight!",
+      "item.standard1hmaceupgrade.name": "Standard Mace +1",
+      "item.boarsword.name": "Frenzy Slash",
+      "tipped_arrow.effect.timerdash": "Arrow of Dash Cooldown",
+      "item.standardspearupgrade.name": "Standard Spear +1",
+      "item.standard2hbattleaxeadvanced.name": "Standard Battleaxe +2",
+      "item.record.wehavetodefeatit.desc": "Kajiura Yuki - We Have To Defeat It",
+      "itemGroup.tabsaofi": "SAO F1",
+      "item.boartusk.name": "Boar Tusk",
+      "item.standard1hmaceadvanced.name": "Standard Mace +2",
+      "tile.dungeonwall1.name": "Dungeon Wall 1",
+      "item.record.confrontbattle.desc": "Kajiura Yuki - Confront Battle",
+      "effect.timerdash": "Dash Cooldown",
+      "item.standardsword.name": "Standard Sword",
+      "item.record.swordland.desc": "Kajiura Yuki - Swordland",
+      "item.record.everydaylife.desc": "Kajiura Yuki - Everyday Life",
+      "item.confrontbattle.name": "Confront Battle"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "sao_legacy",
+    "modName": "The SAO Legacy Mod",
+    "version": "1.0.0",
+    "description": "Created for the SAO Legacy server",
+    "author": "Cardinal",
+    "websiteURL": "http://swordartlegacy.com",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.sao_legacy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

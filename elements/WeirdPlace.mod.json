@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_weird_place",
+    "name": "Weird Place",
+    "description": "Kajiura Yuki - Weird Place",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:weird_place"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

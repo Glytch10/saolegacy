@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_we_have_to_defeat_it",
+    "name": "We Have To Defeat It",
+    "description": "Kajiura Yuki - We Have To Defeat It",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:we_have_to_defeat_it"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

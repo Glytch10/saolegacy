@@ -1,0 +1,1068 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "forging station": "minecraft:weapon textures/actual textures/blocks/special/forging station"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "AnvilBottom2",
+            "from": [ 2.5, 0, 4 ], 
+            "to": [ 15.5, 1.5, 10 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10, 1.5 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 6, 1.5 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10, 1.5 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 6, 1.5 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 11, 6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 11, 6 ] }
+            }
+        },
+        {
+            "name": "AnvilBottom3",
+            "from": [ 2.7, 0, 5.53 ], 
+            "to": [ 3.7, 1.499, 6.95 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.42 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.42 ] }
+            }
+        },
+        {
+            "name": "AnvilBottom4",
+            "from": [ 15.15, 0, 9.05 ], 
+            "to": [ 16.15, 1.499, 10.47 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.42 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.42 ] }
+            }
+        },
+        {
+            "name": "AnvilBottom5",
+            "from": [ 10.47, 0, 13.7 ], 
+            "to": [ 11.89, 1.499, 14.7 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1 ] }
+            }
+        },
+        {
+            "name": "AnvilBottom6",
+            "from": [ 6.93, 0, 1.28 ], 
+            "to": [ 8.35, 1.499, 2.28 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1.499 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1, 1.499 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.42, 1 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle1",
+            "from": [ 3.6, 1, 4 ], 
+            "to": [ 14.4, 2.101, 10 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.8, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 6, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.8, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 6, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.8, 6 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle2",
+            "from": [ 3.601, 2.8, 0.9 ], 
+            "to": [ 7.499, 3.901, 2.2 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle3",
+            "from": [ 3.601, 2.05, 11.95 ], 
+            "to": [ 7.499, 3.151, 13.25 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle4",
+            "from": [ 0.44, 3, 4.001 ], 
+            "to": [ 1.84, 4.101, 9.999 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.998, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.998, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 5.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 5.998 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle5",
+            "from": [ 15.9, 3.75, 4.001 ], 
+            "to": [ 17.4, 4.851, 9.999 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.5, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.998, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.5, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.998, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.5, 5.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.5, 5.998 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle6",
+            "from": [ 0.74, 5.8, 5.001 ], 
+            "to": [ 3.14, 6.901, 8.999 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.4, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 3.998, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.4, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 3.998, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.4, 3.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.4, 3.998 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle7",
+            "from": [ 14.34, 7.2, 5.001 ], 
+            "to": [ 16.64, 8.301, 8.999 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 3.998, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 3.998, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 3.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 3.998 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle8",
+            "from": [ 4.64, 5.53, 1.001 ], 
+            "to": [ 13.338, 6.631, 3.201 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle9",
+            "from": [ 4.64, 4.13, 11.301 ], 
+            "to": [ 13.338, 5.231, 13.601 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 2.3 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 8.698, 2.3 ] }
+            }
+        },
+        {
+            "name": "AnvilMain1",
+            "from": [ 5.1, 2, 5.5 ], 
+            "to": [ 12.9, 9.101, 8.5 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 7.8, 7.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 3, 7.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 7.8, 7.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 3, 7.101 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle10",
+            "from": [ 5.14, 0.83, 6.901 ], 
+            "to": [ 12.838, 4.931, 8.301 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle11",
+            "from": [ 5.14, 1.83, 5.901 ], 
+            "to": [ 12.838, 5.931, 7.301 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle12",
+            "from": [ 6.54, -0.17, 5.501 ], 
+            "to": [ 8.238, 4.931, 8.499 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 5.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 5.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 5.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 5.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 2.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 2.998 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle13",
+            "from": [ 9.64, -1.27, 5.501 ], 
+            "to": [ 11.338, 3.831, 8.499 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 5.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 5.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 5.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 5.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 2.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.698, 2.998 ] }
+            }
+        },
+        {
+            "name": "AnvilTop1",
+            "from": [ 5.14, 5.83, 6.901 ], 
+            "to": [ 12.838, 9.931, 8.301 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] }
+            }
+        },
+        {
+            "name": "AnvilTop2",
+            "from": [ 5.14, 6.53, 5.901 ], 
+            "to": [ 12.838, 10.631, 7.301 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 4.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.4, 4.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 7.698, 1.4 ] }
+            }
+        },
+        {
+            "name": "AnvilTop3",
+            "from": [ 4.34, 6.2, 5.501 ], 
+            "to": [ 6.64, 7.601, 8.499 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.401 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 1.401 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.401 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 1.401 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 2.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 2.998 ] }
+            }
+        },
+        {
+            "name": "AnvilTop4",
+            "from": [ 10.74, 4.8, 5.501 ], 
+            "to": [ 13.04, 6.201, 8.499 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.401 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 1.401 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 1.401 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.998, 1.401 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 2.998 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.3, 2.998 ] }
+            }
+        },
+        {
+            "name": "AnvilMain2",
+            "from": [ 2.999, 9, 4.4 ], 
+            "to": [ 15.001, 13.101, 9.6 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 4.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.2, 4.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 4.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.2, 4.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 5.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 5.2 ] }
+            }
+        },
+        {
+            "name": "AnvilMain3",
+            "from": [ 3, 9.5, 3.4 ], 
+            "to": [ 15, 12.601, 10.6 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 11, 3.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 7.2, 3.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 11, 3.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 7.2, 3.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 11, 7.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 11, 7.2 ] }
+            }
+        },
+        {
+            "name": "AnvilMain4",
+            "from": [ 6.999, 11, 4.399 ], 
+            "to": [ 19.001, 13.097, 9.601 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 2.102 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.202, 2.102 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 2.102 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.202, 2.102 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 5.202 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 11.002, 5.202 ] }
+            }
+        },
+        {
+            "name": "AnvilMain5",
+            "from": [ 2.998, 12, 9.2 ], 
+            "to": [ 6.5, 13.1, 14 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 1.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 4.8, 1.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 1.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 4.8, 1.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 4.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 4.8 ] }
+            }
+        },
+        {
+            "name": "AnvilMain6",
+            "from": [ 7.198, 11.901, 8.2 ], 
+            "to": [ 9.7, 13.099, 13 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.502, 1.198 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 4.8, 1.198 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.502, 1.198 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 4.8, 1.198 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.502, 4.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.502, 4.8 ] }
+            }
+        },
+        {
+            "name": "AnvilMain7",
+            "from": [ 14.999, 7, 4.401 ], 
+            "to": [ 18.501, 9.101, 9.599 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 2.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.198, 2.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 2.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.198, 2.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 5.198 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 5.198 ] }
+            }
+        },
+        {
+            "name": "AnvilMain8",
+            "from": [ 3, 9.8, 9.2 ], 
+            "to": [ 6.5, 10.9, 14.3 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.5, 1.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.1, 1.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.5, 1.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.1, 1.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.5, 5.1 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.5, 5.1 ] }
+            }
+        },
+        {
+            "name": "AnvilBottom7",
+            "from": [ 3.5, 0, 3 ], 
+            "to": [ 7.5, 1.501, 11 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4, 1.501 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 8, 1.501 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4, 1.501 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 8, 1.501 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4, 8 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4, 8 ] }
+            }
+        },
+        {
+            "name": "AnvilBottom8",
+            "from": [ 10.5, 0, 3 ], 
+            "to": [ 14.5, 1.501, 11 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4, 1.501 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 8, 1.501 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4, 1.501 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 8, 1.501 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4, 8 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4, 8 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle12",
+            "from": [ 10.501, 2.05, 11.95 ], 
+            "to": [ 14.399, 3.151, 13.25 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] }
+            }
+        },
+        {
+            "name": "AnvilMiddle13",
+            "from": [ 10.501, 2.8, 0.9 ], 
+            "to": [ 14.399, 3.901, 2.2 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.3, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.898, 1.3 ] }
+            }
+        },
+        {
+            "name": "AnvilFront1",
+            "from": [ 1.299, 9.5, 4.4 ], 
+            "to": [ 13.301, 12.601, 9.6 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 12.002, 3.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 12.002, 3.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.2, 3.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 12.002, 5.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 12.002, 5.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront2",
+            "from": [ -3.001, 10.6, 5.9 ], 
+            "to": [ 7.001, 12.101, 8.1 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 1.501 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 1.501 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.501 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront3",
+            "from": [ -1.501, 6.9, 5.9 ], 
+            "to": [ 9.001, 8.001, 8.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront4",
+            "from": [ -0.601, 10.601, 10 ], 
+            "to": [ 4.301, 12.1, 11.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.499 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 1.499 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.499 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 1.499 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront5",
+            "from": [ 3.399, 5, 5.901 ], 
+            "to": [ 12.901, 6.501, 8.099 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 9.502, 1.501 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.198, 1.501 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 9.502, 1.501 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.198, 1.501 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 9.502, 2.198 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 9.502, 2.198 ] }
+            }
+        },
+        {
+            "name": "AnvilFront6",
+            "from": [ 4.299, 4, 5.9 ], 
+            "to": [ 9.801, 9.501, 8.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 5.502, 5.501 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 5.501 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 5.502, 5.501 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 5.501 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 5.502, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 5.502, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront7",
+            "from": [ -0.001, 10.601, 2.5 ], 
+            "to": [ 4.901, 12.1, 4.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.499 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 1.499 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.499 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 1.499 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4.902, 1.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront8",
+            "from": [ -4.401, 10.801, 6.4 ], 
+            "to": [ 5.601, 12.1, 7.6 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 1.299 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 1.299 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 1.299 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 1.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.002, 1.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront9",
+            "from": [ -2.87, 10.802, 1.86 ], 
+            "to": [ -1.368, 12.099, 2.46 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 1.297 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.297 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 1.297 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.297 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 0.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 0.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront10",
+            "from": [ -3.57, 10.802, 11.7 ], 
+            "to": [ -2.068, 12.099, 12.3 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 1.297 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.297 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 1.297 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.297 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 0.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.502, 0.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront11",
+            "from": [ -2.701, 6.9, 6.4 ], 
+            "to": [ 7.801, 8.001, 7.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 1.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 1.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 1.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 1.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 1.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.502, 1.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront12",
+            "from": [ -5.701, 11.001, 6.4 ], 
+            "to": [ -0.699, 12.099, 7.6 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 5.002, 1.098 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 5.002, 1.098 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 1.098 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 5.002, 1.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 5.002, 1.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront13",
+            "from": [ 0.44, 19.811, 6.4 ], 
+            "to": [ 1.24, 20.561, 7.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 0.75 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 0.75 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 0.75 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 0.75 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 1.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 1.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront14",
+            "from": [ -6.26, 11.501, 6.401 ], 
+            "to": [ -5.36, 12.101, 7.599 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 0.9, 0.6 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.198, 0.6 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 0.9, 0.6 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.198, 0.6 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 0.9, 1.198 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 0.9, 1.198 ] }
+            }
+        },
+        {
+            "name": "AnvilFront15",
+            "from": [ 3.499, 13.32, 4.401 ], 
+            "to": [ 5.321, 14.621, 9.599 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.822, 1.301 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.198, 1.301 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.822, 1.301 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.198, 1.301 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.822, 5.198 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.822, 5.198 ] }
+            }
+        },
+        {
+            "name": "AnvilFront16",
+            "from": [ 1.199, 18.75, 6.4 ], 
+            "to": [ 1.999, 19.55, 7.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 0.8 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 0.8 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 0.8 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.2, 0.8 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 1.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 1.2 ] }
+            }
+        },
+        {
+            "name": "AnvilFront17",
+            "from": [ 2.06, 17.63, 6.15 ], 
+            "to": [ 2.86, 18.43, 7.85 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 0.8 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.7, 0.8 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 0.8 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.7, 0.8 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 1.7 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 0.8, 1.7 ] }
+            }
+        },
+        {
+            "name": "AnvilFront18",
+            "from": [ 2.399, 13.42, 5.265 ], 
+            "to": [ 3.721, 14.721, 8.663 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 1.322, 1.301 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 3.398, 1.301 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 1.322, 1.301 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 3.398, 1.301 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 1.322, 3.398 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 1.322, 3.398 ] }
+            }
+        },
+        {
+            "name": "AnvilMain8",
+            "from": [ 2.999, 12.72, 5.501 ], 
+            "to": [ 14.997, 14.021, 6.723 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] }
+            }
+        },
+        {
+            "name": "AnvilMain9",
+            "from": [ 2.999, 11.95, 7.421 ], 
+            "to": [ 14.997, 13.251, 8.643 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] }
+            }
+        },
+        {
+            "name": "AnvilBack1",
+            "from": [ 17.999, 12.001, 5.9 ], 
+            "to": [ 22.501, 13.1, 8.1 ], 
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4.502, 1.099 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.099 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4.502, 1.099 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.099 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4.502, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4.502, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilBack2",
+            "from": [ 16.799, 12.002, 0.47 ], 
+            "to": [ 20.801, 13.099, 2.67 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 1.097 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.097 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 1.097 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.097 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilBack3",
+            "from": [ 17.56, 12.002, 11.48 ], 
+            "to": [ 21.562, 13.099, 13.68 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 1.097 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.097 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 1.097 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 2.2, 1.097 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 2.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 4.002, 2.2 ] }
+            }
+        },
+        {
+            "name": "AnvilBack4",
+            "from": [ 19.299, 6.56, 5.45 ], 
+            "to": [ 22.001, 7.659, 8.55 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.702, 1.099 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 3.1, 1.099 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.702, 1.099 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 3.1, 1.099 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.702, 3.1 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.702, 3.1 ] }
+            }
+        },
+        {
+            "name": "AnvilMain10",
+            "from": [ 13.66, 3.76, 4.4 ], 
+            "to": [ 17.162, 5.861, 9.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 2.101 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 5.2, 2.101 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 2.101 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 5.2, 2.101 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 5.2 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 3.502, 5.2 ] }
+            }
+        },
+        {
+            "name": "AnvilMain11",
+            "from": [ 2.999, 8.4, 9.751 ], 
+            "to": [ 14.997, 9.701, 10.973 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] }
+            }
+        },
+        {
+            "name": "AnvilMain12",
+            "from": [ 2.999, 7.63, 3.18 ], 
+            "to": [ 14.997, 8.931, 4.402 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.301 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.222, 1.301 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 10.998, 1.222 ] }
+            }
+        },
+        {
+            "name": "AnvilFront19",
+            "from": [ 2.23, 10.202, 13.265 ], 
+            "to": [ 4.382, 11.799, 13.865 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.597 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.597 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.597 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.597 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 0.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 0.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront20",
+            "from": [ 3.66, 10.202, 0.725 ], 
+            "to": [ 5.812, 11.799, 1.325 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.597 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.597 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.597 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 0.6, 1.597 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 0.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 0.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront21",
+            "from": [ 2.43, 9.51, 10.365 ], 
+            "to": [ 4.582, 12.58, 11.965 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 3.07 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 3.07 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 3.07 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 3.07 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.6 ] }
+            }
+        },
+        {
+            "name": "AnvilFront22",
+            "from": [ 3.19, 9.51, 2.11 ], 
+            "to": [ 5.342, 12.58, 3.71 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 3.07 ] },
+                "east": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 3.07 ] },
+                "south": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 3.07 ] },
+                "west": { "texture": "#forging station", "uv": [ 0, 0, 1.6, 3.07 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.6 ] },
+                "down": { "texture": "#forging station", "uv": [ 0, 0, 2.152, 1.6 ] }
+            }
+        },
+        {
+            "name": "Ingot1",
+            "from": [ 4.998, 13, 6.9 ], 
+            "to": [ 7.5, 14.1, 11.7 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 7, 14, 10.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 7, 14, 10.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 8, 13, 11.502, 14.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 7, 14, 10.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 8, 12, 11.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 8, 11, 10.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Ingot2",
+            "from": [ 5.298, 13.2, 7.2 ], 
+            "to": [ 7.2, 14.3, 11.4 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 7, 14, 10.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 7, 14, 10.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 8, 13, 11.502, 14.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 7, 14, 10.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 8, 12, 11.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 8, 11, 10.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer1",
+            "from": [ 11.798, 13.6, 6.4 ], 
+            "to": [ 12.7, 14.4, 10.9 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 9, 13, 9.502, 14.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 7, 12, 10.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 9, 11, 10.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 7, 12, 10.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 8, 12, 9.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 8, 12, 9.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer2",
+            "from": [ 9.998, 13.1, 6.9 ], 
+            "to": [ 14.5, 14.9, 8.8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 6, 16, 1.502, 13.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 2, 14, 6.8, 11.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 1, 15, 5.502, 14.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 2, 14, 5.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 0, 12, 2.502, 14.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 3, 14, 4.502, 14.8 ] }
+            }
+        },
+        {
+            "name": "Hammer3",
+            "from": [ 11.698, 13.5, 13.3 ], 
+            "to": [ 12.8, 14.5, 13.8 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 15, 14, 15.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 12, 13, 15.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 12, 11, 15.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 14, 13, 15.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer4",
+            "from": [ 11.898, 13.7, 9.9 ], 
+            "to": [ 12.6, 14.3, 13.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 15, 14, 15.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 12, 11, 15.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 14, 12, 15.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 12, 11, 15.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 14, 12, 15.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer5",
+            "from": [ 11.698, 13.5, 8.7 ], 
+            "to": [ 12.8, 14.5, 9.2 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 15, 14, 15.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 12, 13, 15.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 12, 11, 15.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 14, 13, 15.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer6",
+            "from": [ 11.698, 13.5, 9.9 ], 
+            "to": [ 12.8, 14.5, 10.4 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 14, 14, 14.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 12, 13, 15.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 12, 11, 15.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 14, 13, 15.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer7",
+            "from": [ 11.698, 13.5, 6.6 ], 
+            "to": [ 12.8, 14.5, 7.1 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 15, 14, 15.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 12, 13, 15.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 12, 11, 15.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 14, 13, 15.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 14, 11, 15.502, 15.8 ] }
+            }
+        },
+        {
+            "name": "Hammer8",
+            "from": [ 11.798, 13.6, 13.1 ], 
+            "to": [ 12.7, 14.4, 13.6 ], 
+            "rotation": { "origin": [ 8, 8, 8 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#forging station", "uv": [ 9, 14, 9.502, 15.1 ] },
+                "east": { "texture": "#forging station", "uv": [ 8, 12, 10.8, 15.1 ] },
+                "south": { "texture": "#forging station", "uv": [ 8, 12, 9.502, 15.1 ] },
+                "west": { "texture": "#forging station", "uv": [ 8, 12, 10.8, 15.1 ] },
+                "up": { "texture": "#forging station", "uv": [ 8, 12, 10.502, 15.8 ] },
+                "down": { "texture": "#forging station", "uv": [ 8, 11, 9.502, 15.8 ] }
+            }
+        }
+    ]
+}

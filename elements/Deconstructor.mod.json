@@ -1,0 +1,105 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 282,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "name": "Slot #1",
+          "x": 516,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "name": "Slot #2",
+          "x": 552,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "name": "Slot #3",
+          "x": 516,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "name": "Slot #4",
+          "x": 552,
+          "y": 132
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 5,
+          "name": "Slot #5",
+          "x": 516,
+          "y": 168
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 6,
+          "name": "Slot #6",
+          "x": 552,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "DISMANTLE",
+          "onClick": {
+            "name": "Dismantle"
+          },
+          "width": 180,
+          "height": 40,
+          "name": "DISMANTLE",
+          "x": 282,
+          "y": 186
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Dismantling Table",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Dismantling Table",
+          "x": 339,
+          "y": 41
+        }
+      }
+    ]
+  }
+}

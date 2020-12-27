@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "potion_overlay": "otion_red",
+        "potion_glass": "otion_glass",
+        "crystal_deco": "rystal_eco"
+      },
+      "name": "default"
+    }
+  }
+}

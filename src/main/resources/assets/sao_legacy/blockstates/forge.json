@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "sao_legacy:forge"
+    },
+    "facing=north": {
+      "model": "sao_legacy:forge"
+    },
+    "facing=east": {
+      "model": "sao_legacy:forge",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sao_legacy:forge",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sao_legacy:forge",
+      "y": 270
+    }
+  }
+}

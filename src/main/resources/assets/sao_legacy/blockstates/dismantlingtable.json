@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "sao_legacy:dismantlingtable"
+    },
+    "facing=north": {
+      "model": "sao_legacy:dismantlingtable"
+    },
+    "facing=east": {
+      "model": "sao_legacy:dismantlingtable",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "sao_legacy:dismantlingtable",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "sao_legacy:dismantlingtable",
+      "y": 270
+    }
+  }
+}

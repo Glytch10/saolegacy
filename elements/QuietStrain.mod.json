@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_quiet_strain",
+    "name": "Quiet Strain",
+    "description": "Kajiura Yuki - Quiet Strain",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:quiet_strain"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

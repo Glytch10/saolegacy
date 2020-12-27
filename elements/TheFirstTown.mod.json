@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "disc_the_first_town",
+    "name": "The First Town",
+    "description": "Kajiura Yuki - The First Town",
+    "creativeTab": {
+      "value": "CUSTOM:SAORecords"
+    },
+    "music": {
+      "value": "CUSTOM:the_first_town"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

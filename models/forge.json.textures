@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "forging station": "orging_tation"
+      },
+      "name": "default"
+    }
+  }
+}

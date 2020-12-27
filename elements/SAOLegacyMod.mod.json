@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "The SAO Legacy Mod",
+    "icon": {
+      "value": "CUSTOM:TeleportCrystalToB"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "SAO F1",
+    "icon": {
+      "value": "CUSTOM:Floor1Icon"
+    },
+    "showSearch": false
+  }
+}

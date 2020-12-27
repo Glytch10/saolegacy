@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "pouch",
+    "customModelName": "Normal",
+    "name": "Col Pouch",
+    "creativeTab": {
+      "value": "CUSTOM:SAOLegacyMod"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 2.0,
+    "damageCount": 1024,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [],
+    "hasGlow": false,
+    "onRightClickedInAir": {
+      "name": "ConvertPouch"
+    },
+    "onCrafted": {
+      "name": "ColPouchCraftRemove"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 6,
+  "_type": "tab",
+  "definition": {
+    "name": "SAO Foods",
+    "icon": {
+      "value": "CUSTOM:BoarMeatCooked"
+    },
+    "showSearch": false
+  }
+}

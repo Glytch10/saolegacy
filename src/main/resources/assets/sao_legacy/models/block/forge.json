@@ -1,0 +1,8 @@
+{
+  "parent": "sao_legacy:custom/forge",
+  "textures": {
+    "all": "sao_legacy:blocks/orging_tation",
+    "particle": "sao_legacy:blocks/orging_tation",
+    "forging station": "sao_legacy:blocks/orging_tation"
+  }
+}
