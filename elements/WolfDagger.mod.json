@@ -2,9 +2,9 @@
   "_fv": 6,
   "_type": "tool",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "uncommondagger",
-    "customModelName": "Normal",
+    "customModelName": "wolf_dagger:default",
     "name": "Wolf's' Fang",
     "creativeTab": {
       "value": "CUSTOM:SAOFI"

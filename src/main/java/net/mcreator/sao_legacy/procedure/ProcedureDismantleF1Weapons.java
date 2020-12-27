@@ -7,6 +7,14 @@ import net.minecraft.init.Items;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.Entity;
 
+import net.mcreator.sao_legacy.item.ItemWolfPelt;
+import net.mcreator.sao_legacy.item.ItemWolfFang;
+import net.mcreator.sao_legacy.item.ItemWolfDagger;
+import net.mcreator.sao_legacy.item.ItemWolfAxe;
+import net.mcreator.sao_legacy.item.ItemWaspWing;
+import net.mcreator.sao_legacy.item.ItemWaspStinger;
+import net.mcreator.sao_legacy.item.ItemWaspSpear;
+import net.mcreator.sao_legacy.item.ItemWaspRapier;
 import net.mcreator.sao_legacy.item.ItemSteelIngot;
 import net.mcreator.sao_legacy.item.ItemStandardSwordUpgrade;
 import net.mcreator.sao_legacy.item.ItemStandardSwordMaster;
@@ -74,7 +82,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -101,7 +109,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -128,7 +136,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -155,7 +163,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -182,7 +190,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -209,7 +217,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -236,7 +244,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -248,7 +256,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -275,7 +283,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -287,7 +295,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -314,7 +322,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -326,7 +334,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -353,7 +361,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -365,7 +373,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -392,7 +400,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -404,7 +412,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -431,7 +439,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -443,7 +451,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -470,7 +478,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -482,7 +490,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -521,7 +529,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -533,7 +541,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -572,7 +580,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -584,7 +592,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -623,7 +631,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -635,7 +643,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -674,7 +682,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -686,7 +694,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -725,7 +733,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -737,7 +745,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -776,7 +784,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -788,7 +796,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -839,7 +847,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -851,7 +859,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -902,7 +910,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -914,7 +922,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -965,7 +973,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -977,7 +985,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -1028,7 +1036,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -1040,7 +1048,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -1091,7 +1099,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
+						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
 						_setstack.setCount(7);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -1103,7 +1111,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 				if (_current instanceof Supplier) {
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
-						ItemStack _setstack = new ItemStack(Items.IRON_INGOT, (int) (1));
+						ItemStack _setstack = new ItemStack(ItemCopperIngot.block, (int) (1));
 						_setstack.setCount(6);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
@@ -1155,7 +1163,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
 						ItemStack _setstack = new ItemStack(ItemBoarTusk.block, (int) (1));
-						_setstack.setCount(2);
+						_setstack.setCount(3);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
@@ -1167,7 +1175,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
 						ItemStack _setstack = new ItemStack(ItemBoarHide.block, (int) (1));
-						_setstack.setCount(2);
+						_setstack.setCount(3);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
@@ -1194,7 +1202,7 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
 						ItemStack _setstack = new ItemStack(ItemBoarTusk.block, (int) (1));
-						_setstack.setCount(2);
+						_setstack.setCount(3);
 						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
@@ -1206,14 +1214,170 @@ public class ProcedureDismantleF1Weapons extends ElementsTheSAOLegacyMod.ModElem
 					Object invobj = ((Supplier) _current).get();
 					if (invobj instanceof Map) {
 						ItemStack _setstack = new ItemStack(ItemBoarHide.block, (int) (1));
-						_setstack.setCount(2);
+						_setstack.setCount(3);
 						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
 						_current.detectAndSendChanges();
 					}
 				}
 			}
 		}
-		/* wasp weapons *//* wolf weapons *//* clear input */if (((new Object() {
+		/* wasp weapons */if (((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem() == new ItemStack(ItemWaspRapier.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWaspStinger.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWaspWing.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+		}
+		if (((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem() == new ItemStack(ItemWaspSpear.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWaspStinger.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWaspWing.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+		}
+		/* wolf weapons */if (((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem() == new ItemStack(ItemWolfDagger.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWolfFang.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWolfPelt.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+		}
+		if (((new Object() {
+			public ItemStack getItemStack(int sltid) {
+				if (entity instanceof EntityPlayerMP) {
+					Container _current = ((EntityPlayerMP) entity).openContainer;
+					if (_current instanceof Supplier) {
+						Object invobj = ((Supplier) _current).get();
+						if (invobj instanceof Map) {
+							return ((Slot) ((Map) invobj).get(sltid)).getStack();
+						}
+					}
+				}
+				return ItemStack.EMPTY;
+			}
+		}.getItemStack((int) (0))).getItem() == new ItemStack(ItemWolfAxe.block, (int) (1)).getItem())) {
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWolfFang.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (1))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+			if (entity instanceof EntityPlayerMP) {
+				Container _current = ((EntityPlayerMP) entity).openContainer;
+				if (_current instanceof Supplier) {
+					Object invobj = ((Supplier) _current).get();
+					if (invobj instanceof Map) {
+						ItemStack _setstack = new ItemStack(ItemWolfPelt.block, (int) (1));
+						_setstack.setCount(3);
+						((Slot) ((Map) invobj).get((int) (2))).putStack(_setstack);
+						_current.detectAndSendChanges();
+					}
+				}
+			}
+		}
+		/* clear input */if (((new Object() {
 			public int getAmount(int sltid) {
 				if (entity instanceof EntityPlayerMP) {
 					Container _current = ((EntityPlayerMP) entity).openContainer;

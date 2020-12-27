@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "bane wolf": "bane_wolf"
+      },
+      "name": "default"
+    }
+  }
+}

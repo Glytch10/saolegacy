@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "ax wolf": "ax_wolf"
+      },
+      "name": "default"
+    }
+  }
+}

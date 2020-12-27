@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "uncommonaxe",
-    "customModelName": "basicaxemaster:default",
+    "customModelName": "wolf_axe:default",
     "name": "Wolf's bane",
     "creativeTab": {
       "value": "CUSTOM:SAOFI"

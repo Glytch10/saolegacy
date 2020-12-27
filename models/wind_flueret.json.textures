@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "wind fleuret dg_g": "wind_flueret"
+      },
+      "name": "default"
+    }
+  }
+}

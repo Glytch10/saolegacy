@@ -870,14 +870,6 @@
       "ids": {}
     },
     {
-      "name": "WolfSword",
-      "type": "tool",
-      "sortid": 51,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "WolfAxe",
       "type": "tool",
       "sortid": 91,
@@ -1202,7 +1194,6 @@
       "splash_potion.effect.timerdash": "Splash Dash Cooldown",
       "item.thefirsttown.name": "The First Town",
       "item.swordland.name": "Swordland",
-      "item.wolfsword.name": "Wolf Sword",
       "itemGroup.tabsaorecords": "SAO Records",
       "item.standarddaggeradvanced.name": "Standard Dagger +2",
       "item.healingpotion.name": "Healing Potion",
